@@ -13,4 +13,4 @@ python main.py -h
 More
 
 # Thanks:
-- login4cqupt[https://github.com/ourongxing/login4cqupt]
+- [login4cqupt](https://github.com/ourongxing/login4cqupt)
