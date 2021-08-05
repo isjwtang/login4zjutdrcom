@@ -12,3 +12,5 @@ python main.py 1658xxx passxxxx
 python main.py -h
 More
 
+# Thanks:
+- login4cqupt[https://github.com/ourongxing/login4cqupt]
