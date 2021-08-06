@@ -26,6 +26,9 @@ password = "xxxxxx"
 python3 drcom.py -c config.ini
 ```
 #### dist中是编译好的exe文件可以通过winsw工具将其添加到系统进程中，
+```
+drcom_login.exe -c condig.ini
+```
 ## Linux Bash版
 ```
 # 填入账号密码和IP
