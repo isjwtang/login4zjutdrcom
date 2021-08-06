@@ -38,7 +38,7 @@ HOST=10.*.*.**
 ```
 1. 给权限，chmod a+x /usr/drcom_login.sh
 2. 将drcom_login.sh添加到/etc/rc.local的exit前,并添加到
-3. 将drcom_login.sh添加到计划任务中定时启动。crontab -e 添加 */5 * * * * /usr/bin/login.sh 每5秒检测一次
+3. 将drcom_login.sh添加到计划任务中定时启动。crontab -e 添加 * * * * * /usr/bin/login.sh 每分钟检测一次
 
 ## help
 python drcom_login.py -h
