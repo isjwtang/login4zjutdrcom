@@ -17,7 +17,7 @@ windows和linux都可正常使用
 ```
 # 修改config.ini中
 # 账号
-account = "19003xxxxx"
+account = "211*******"
 # 密码
 password = "xxxxxx"
 ```
@@ -32,7 +32,7 @@ drcom_login.exe -c condig.ini
 ## Linux Bash版
 ```
 # 填入账号密码和IP
-user=2111******
+user=211*******
 pwd=qwe***
 HOST=10.*.*.**
 ```
