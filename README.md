@@ -14,7 +14,6 @@ account = "19003xxxxx"
 password = "xxxxxx"
 # 运行python脚本进行测试
 python3 drcom.py -c config.ini
-# 确认连通之后把这个脚本放到系统进程中就可以了。
 ```
 # then
 pip install -r requirements.txt
