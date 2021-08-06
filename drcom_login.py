@@ -13,7 +13,7 @@ class drcom_login:
     # 初始化
     def __init__(self, args):
         # 检测间隔时间，单位为秒
-        self.every = 3
+        self.every = 4
         self.user_session = args['user_session']
         self.account = args['account']
         self.password = urllib.parse.quote(args['password'])
@@ -140,15 +140,11 @@ def get_args():
 if __name__ == '__main__':
     conf = get_args()
 
-
-
-
     '''输入参数
     user_session： login, logout 选择登录还是退出
     account： 登录账号即学号
     password： 密码
     '''
-
 
     drcom = drcom_login(conf)
     drcom.login()
