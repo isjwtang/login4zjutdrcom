@@ -16,7 +16,7 @@ ping -n 1 -w 1 zhihu.com > nul
 if %errorlevel% leq 0 (
    echo network ok.
    choice /t 4 /d y /n > nul
-      
+   exit
 ) else (
    echo network bad.
    echo curl -G -d c=Portal -d a=login -d login_method=1 --data-urlencode user_account=,0,%user% --data-urlencode user_password=%pwd% -d wlan_user_ip=%IP% http://192.168.6.1:801/eportal/ 
